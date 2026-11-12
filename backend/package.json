@@ -1,0 +1,21 @@
+{
+  "name": "wb-seller-manager-backend",
+  "version": "1.0.0",
+  "description": "REST API для WB Seller Manager (Express + SQLite)",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test/smoke.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.5.0"
+  }
+}
